@@ -9,9 +9,11 @@ metadata:
 spec:
   ports:
   - port: 80
+    name: web
     protocol: TCP
     targetPort: 80
   - port: 443
+    name: secure
     protocol: TCP
     targetPort: 443
   selector:
